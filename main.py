@@ -8,12 +8,12 @@ except: pass
 
 class Main:
 	def __init__(self):
+		os.system('clear')
 		self.p_link="https://pastebin.com/api/api_post.php"
 		self.s_link="https://sfile.mobi/guest.php"
 		self.o_link="https://openload.cc/api/upload"
 
 	def upastebin(self):
-		os.system('clear')
 		print("""
 	#####################
 	# PASTEBIN UPLOADER #
@@ -34,7 +34,6 @@ class Main:
 			click.launch(req.text)
 
 	def upload(self):
-		os.system('clear')
 		print("""%s
    `.-//////`         `+/:/://:`   
  `:+o++++++++:/-`   `:/++++++++/-` 
@@ -67,7 +66,6 @@ o++o:.      -/+++:/+/:.       .+//+
 				print("[!!]",jsn['error']['code']+":",jsn['error']['message'])
 
 	def upsfile(self):
-		os.system('clear')
 		print("""
 `````.:::///+osyyyyyyyyyysoo++//:-.`````
 `````.-:/+yyhhhhhhhhhhhhhhhhyyo/:-.`````
