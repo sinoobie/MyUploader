@@ -11,7 +11,7 @@ class Main:
 		os.system('clear')
 		self.p_link="https://pastebin.com/api/api_post.php"
 		self.s_link="https://sfile.mobi/guest.php"
-		self.o_link="https://openload.cc/api/upload"
+		self.o_link="https://api.openload.cc/upload"
 
 	def upastebin(self):
 		print("""
